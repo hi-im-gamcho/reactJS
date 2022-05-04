@@ -1,0 +1,26 @@
+1. node_modules 폴더 : 프로젝트 구동에 필요한 라이브러리 코드 보관함.
+2. public 폴더 : static파일들 보관하는 곳. (https://blog.naver.com/plusinx00/222051513077)
+3. src 폴더 : 코드 짜는 곳.
+    - app.js : 메인 페이지
+    - index.js : app.js에 있는 html들을 index.html로 옮겨줌.
+    - index.html :
+    - package.js : 프로젝트 정보 기입해두는 파일.(프로젝트명, 버전, 라이브러리명 등) 자동 생성되는 파일
+
+
+
+4. 에러 확인은 터미널/브라우저/console창에서 확인
+
+
+
+last-num. JSX 문법 : js 내부에서 html코드를 작성하기 위한 js 전용 html 대체 언어.
+
+ - 1. class => className
+ - 2. 변수에 저장되어 있던 데이터를 html에 쓰고싶다-> {중괄호}
+        - ex) <h4 id={post}>{post}</h4>
+        - 2번을 '데이터 바인딩' 이라고 함.
+ - 3. style 넣을 땐 style={ {스타일명 : '값'}}
+        - 넣을 때 object 형식으로 넣어야 함.
+        - ex) <h4 style={ {color : 'red'} }></h4>
+
+        - font-size와 같이 '-' 기호를 사용하는 스타일의 경우
+          fontSize와 같이 camalcase로 작성해야 한다.
